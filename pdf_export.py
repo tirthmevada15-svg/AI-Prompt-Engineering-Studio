@@ -11,6 +11,7 @@ def create_pdf(text):
         pdf.multi_cell(0,10,line)
 
     file_path = "prompt_output.pdf"
+
     pdf.output(file_path)
 
     return file_path
